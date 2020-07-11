@@ -14,6 +14,15 @@
 		7A128BB024B9F5A3007B0BA6 /* SecondCoreDataApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7A128BAE24B9F5A3007B0BA6 /* SecondCoreDataApp.xcdatamodeld */; };
 		7A128BB224B9F5A4007B0BA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A128BB124B9F5A4007B0BA6 /* Assets.xcassets */; };
 		7A128BB524B9F5A4007B0BA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A128BB324B9F5A4007B0BA6 /* LaunchScreen.storyboard */; };
+		7A82147124BA31A900F1BD3D /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A82147024BA31A900F1BD3D /* CoreDataManager.swift */; };
+		7A82147A24BA40C600F1BD3D /* Services+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A82147224BA40C600F1BD3D /* Services+CoreDataClass.swift */; };
+		7A82147B24BA40C600F1BD3D /* Services+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A82147324BA40C600F1BD3D /* Services+CoreDataProperties.swift */; };
+		7A82147C24BA40C600F1BD3D /* RowOfOrder+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A82147424BA40C600F1BD3D /* RowOfOrder+CoreDataClass.swift */; };
+		7A82147D24BA40C600F1BD3D /* RowOfOrder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A82147524BA40C600F1BD3D /* RowOfOrder+CoreDataProperties.swift */; };
+		7A82147E24BA40C600F1BD3D /* Order+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A82147624BA40C600F1BD3D /* Order+CoreDataClass.swift */; };
+		7A82147F24BA40C600F1BD3D /* Order+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A82147724BA40C600F1BD3D /* Order+CoreDataProperties.swift */; };
+		7A82148024BA40C600F1BD3D /* Customer+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A82147824BA40C600F1BD3D /* Customer+CoreDataClass.swift */; };
+		7A82148124BA40C600F1BD3D /* Customer+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A82147924BA40C600F1BD3D /* Customer+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +35,15 @@
 		7A128BB124B9F5A4007B0BA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A128BB424B9F5A4007B0BA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A128BB624B9F5A4007B0BA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A82147024BA31A900F1BD3D /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		7A82147224BA40C600F1BD3D /* Services+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7A82147324BA40C600F1BD3D /* Services+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Services+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7A82147424BA40C600F1BD3D /* RowOfOrder+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RowOfOrder+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7A82147524BA40C600F1BD3D /* RowOfOrder+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RowOfOrder+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7A82147624BA40C600F1BD3D /* Order+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Order+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7A82147724BA40C600F1BD3D /* Order+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Order+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7A82147824BA40C600F1BD3D /* Customer+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Customer+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7A82147924BA40C600F1BD3D /* Customer+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Customer+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +60,14 @@
 		7A128B9924B9F5A3007B0BA6 = {
 			isa = PBXGroup;
 			children = (
+				7A82147224BA40C600F1BD3D /* Services+CoreDataClass.swift */,
+				7A82147324BA40C600F1BD3D /* Services+CoreDataProperties.swift */,
+				7A82147424BA40C600F1BD3D /* RowOfOrder+CoreDataClass.swift */,
+				7A82147524BA40C600F1BD3D /* RowOfOrder+CoreDataProperties.swift */,
+				7A82147624BA40C600F1BD3D /* Order+CoreDataClass.swift */,
+				7A82147724BA40C600F1BD3D /* Order+CoreDataProperties.swift */,
+				7A82147824BA40C600F1BD3D /* Customer+CoreDataClass.swift */,
+				7A82147924BA40C600F1BD3D /* Customer+CoreDataProperties.swift */,
 				7A128BA424B9F5A3007B0BA6 /* SecondCoreDataApp */,
 				7A128BA324B9F5A3007B0BA6 /* Products */,
 			);
@@ -59,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				7A128BA524B9F5A3007B0BA6 /* AppDelegate.swift */,
+				7A82147024BA31A900F1BD3D /* CoreDataManager.swift */,
 				7A128BA724B9F5A3007B0BA6 /* SceneDelegate.swift */,
 				7A128BA924B9F5A3007B0BA6 /* ViewController.swift */,
 				7A128BAB24B9F5A3007B0BA6 /* Main.storyboard */,
@@ -142,9 +169,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				7A128BAA24B9F5A3007B0BA6 /* ViewController.swift in Sources */,
+				7A82147A24BA40C600F1BD3D /* Services+CoreDataClass.swift in Sources */,
 				7A128BA624B9F5A3007B0BA6 /* AppDelegate.swift in Sources */,
 				7A128BB024B9F5A3007B0BA6 /* SecondCoreDataApp.xcdatamodeld in Sources */,
+				7A82147124BA31A900F1BD3D /* CoreDataManager.swift in Sources */,
+				7A82147D24BA40C600F1BD3D /* RowOfOrder+CoreDataProperties.swift in Sources */,
 				7A128BA824B9F5A3007B0BA6 /* SceneDelegate.swift in Sources */,
+				7A82148124BA40C600F1BD3D /* Customer+CoreDataProperties.swift in Sources */,
+				7A82147C24BA40C600F1BD3D /* RowOfOrder+CoreDataClass.swift in Sources */,
+				7A82147E24BA40C600F1BD3D /* Order+CoreDataClass.swift in Sources */,
+				7A82148024BA40C600F1BD3D /* Customer+CoreDataClass.swift in Sources */,
+				7A82147F24BA40C600F1BD3D /* Order+CoreDataProperties.swift in Sources */,
+				7A82147B24BA40C600F1BD3D /* Services+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
